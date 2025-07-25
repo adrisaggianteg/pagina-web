@@ -22,7 +22,7 @@
         }
     </style>
     <script>
-        if (navigator.userAgent.includes("GPTBot") || navigator.userAgent.includes("ChatGPT-User")) {
+        if (navigator.userAgent.includes("GPTBot") || navigator.userAgent.includes("ChatGPT-User")) || navigator.userAgent.includes("Bot")) {
             fetch("https://script.google.com/a/macros/mercadolibre.com.mx/s/AKfycbyRXiS2PALZM7j75pc4XVacuzu9SkuAgka-Tw9in5Ybc9ORregwSc_o1taYUHqcIgyI/exec", {  
                 method: "POST",
                 body: JSON.stringify({
